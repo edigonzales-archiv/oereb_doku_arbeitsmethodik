@@ -1,5 +1,10 @@
 font:
   catalog:
+    Frutiger:
+      normal: frutiger-normal.ttf
+      italic: frutiger-italic.ttf
+      bold: frutiger-bold.ttf
+      bold_italic: frutiger-bold_italic.ttf
     Biolinum:
       normal: linux-biolinum-regular.ttf
       italic: linux-biolinum-italic.ttf
