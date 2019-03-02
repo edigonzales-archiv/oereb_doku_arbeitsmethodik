@@ -6,7 +6,7 @@
 :author_email: agi@bd.so.ch
 :author: {author_name}
 :email: {author_email}
-:revnumber: 0.1.0
+:revnumber: {project-version}
 :sectnums:
 
 == Einleitung

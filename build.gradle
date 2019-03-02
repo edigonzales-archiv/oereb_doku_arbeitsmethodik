@@ -23,6 +23,8 @@ ext {
     currentDate = new Date().format("d. MMM yyyy")
 }
 
+version = '0.0.1'
+
 asciidoctor {
     attributes = [
         doctype: 'book',
@@ -41,7 +43,8 @@ tasks.withType(AsciidoctorTask) { docTask ->
           'source-highlighter': 'coderay',
           'toc': 'right',
           'icons': 'font',
-          'sourceDir': "$projectDir/src/"
+          'sourceDir': "$projectDir/src/",
+          'project-version' : project.version.toString()
 
     // good to see what the build is doing...
     logDocuments = true
